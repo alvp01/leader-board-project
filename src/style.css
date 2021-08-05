@@ -1,0 +1,102 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+header,
+.container,
+.content-container,
+.list-scores {
+  width: 100%;
+}
+
+.score-title-holder,
+.margin-bot,
+input[type="text"] {
+  margin-bottom: 1.5em;
+}
+
+.container,
+.content-container,
+.score-title-holder,
+.leaderboard,
+.form-container,
+.score-form,
+.scores-container {
+  display: flex;
+}
+
+.container {
+  padding: 2.5%;
+  height: 100%;
+  flex-direction: column;
+  align-content: flex-end;
+}
+
+.content-container,
+.score-title-holder {
+  flex-direction: row;
+}
+
+.leaderboard,
+.form-container,
+.score-form,
+.scores-container {
+  flex-direction: column;
+}
+
+.leaderboard,
+.form-container {
+  flex-basis: 42%;
+  margin: 0 4%;
+}
+
+.leaderboard {
+  align-items: flex-end;
+}
+
+.score-title-holder {
+  align-self: flex-start;
+}
+
+.score-title-holder h3 {
+  margin-right: 1em;
+}
+
+.scores,
+.score-form {
+  width: 400px;
+}
+
+.list-scores {
+  list-style: none;
+}
+
+li {
+  height: 60px;
+}
+
+li:nth-child(odd) {
+  background-color: lightgray;
+}
+
+li:nth-child(even) {
+  background-color: white;
+}
+
+.form-container {
+  align-items: flex-start;
+}
+
+.btn {
+  border-radius: 5px;
+  width: 70px;
+}
