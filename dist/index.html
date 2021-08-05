@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="alvp01, Leader Board, ES6, Microverse" />
+  <meta name="author" content="Abel Lavieri"/>
+  <title>Leaderboard</title>
+</head>
+<body>
+  <main class="container">
+    <h1>Leaderboard</h1>
+    <div class="row">
+      <section class="leaderboard">
+        <div class="score-title-holder">
+          <h3 class="section-title">Recent scores</h3>
+          <button class="btn">Refresh</button>
+        </div>
+        <div class="scores">
+          <ul class="scores-list">
+            <li>Name1: 100</li>
+            <li>Name2: 25</li>
+            <li>Name3: 50</li>
+            <li>Name4: 10</li>
+            <li>Name5: 125</li>
+          </ul>
+        </div>
+      </section>
+      <section class="form-container">
+        <h3 class="section-title">Add your score</h3>
+        <form action="score-form">
+          <input type="text" placeholder="Your name...">
+          <input type="text" placeholder="Your score...">
+          <input type="submit" value="Submit">
+        </form>
+      </section>
+    </div>
+  </main>  
+<script defer src="bundle.js"></script></body>
+</html>
