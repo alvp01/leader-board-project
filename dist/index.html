@@ -10,29 +10,33 @@
 </head>
 <body>
   <main class="container">
-    <h1>Leaderboard</h1>
-    <div class="row">
+    <header>
+      <h1>Leaderboard</h1>
+    </header>    
+    <div class="content-container">
       <section class="leaderboard">
-        <div class="score-title-holder">
-          <h3 class="section-title">Recent scores</h3>
-          <button class="btn">Refresh</button>
-        </div>
-        <div class="scores">
-          <ul class="scores-list">
-            <li>Name1: 100</li>
-            <li>Name2: 25</li>
-            <li>Name3: 50</li>
-            <li>Name4: 10</li>
-            <li>Name5: 125</li>
-          </ul>
-        </div>
+        <div class="scores-container">
+          <div class="score-title-holder">
+            <h3 class="section-title">Recent scores</h3>
+            <button class="btn">Refresh</button>
+          </div>
+          <div class="scores">
+            <ul class="list-scores">
+              <li>Name1: 100</li>
+              <li>Name2: 25</li>
+              <li>Name3: 50</li>
+              <li>Name4: 10</li>
+              <li>Name5: 125</li>
+            </ul>
+          </div>
+        </div>        
       </section>
       <section class="form-container">
-        <h3 class="section-title">Add your score</h3>
-        <form action="score-form">
+        <h3 class="section-title margin-bot">Add your score</h3>
+        <form class="score-form">
           <input type="text" placeholder="Your name...">
           <input type="text" placeholder="Your score...">
-          <input type="submit" value="Submit">
+          <input type="submit" value="Submit" class="btn">
         </form>
       </section>
     </div>
