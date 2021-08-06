@@ -8,20 +8,20 @@ const refreshBtn = document.querySelector('.btn-refresh');
 submitBtn.addEventListener('click', (e) => {
   e.preventDefault();
   addScore();
-  getScores().then((response) => {
-    displayScores(response.result);
+  getScores().then(({ result }) => {
+    displayScores(result);
   });
 });
 
 refreshBtn.addEventListener('click', (e) => {
   e.preventDefault();
-  getScores().then((response) => {
-    displayScores(response.result);
+  getScores().then(({ result }) => {
+    displayScores(result);
   });
 });
 
 window.addEventListener('load',()=>{
-  getScores().then((response) => {
-    displayScores(response.result);
+  getScores().then(({ result }) => {
+    displayScores(result);
   });
 })
