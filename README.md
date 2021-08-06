@@ -40,6 +40,19 @@ $ npm run start
 
 [Live demo](https://github.com/alvp01/leader-board-project)
 
+## Creating the game id
+
+To create the game id I used Insomnia API client<br>
+Following these steps:
+<br><br>
+![Request URL](./imgs/insomnia1.png)
+Used the following url for the request: https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/
+<br><br>
+![Request parameter](./imgs/insomnia2.png)
+Sent a name as parameter
+<br><br>
+![Game id](./imgs/insomnia3.png)
+Received the game ID to use it in the following url: 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/:id/scores/'
 
 ## Author
 
@@ -57,6 +70,8 @@ Feel free to check the [issues page](https://github.com/alvp01/To-do-list/issues
 ## Acknowledgments
 
 - [Microverse](https://www.microverse.org/)
+- [Leaderboard API](https://www.notion.so/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3)
+- [insomnia](https://insomnia.rest/)
 
 ## 📝 License
 
