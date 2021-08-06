@@ -2,13 +2,20 @@ import './style.css';
 import { getScores, addScore } from './modules/scoresHandle';
 import { displayScores } from './modules/createList';
 
-const btn = document.querySelector('.btn');
+const submitBtn = document.querySelector('.btn-submit');
+const refreshBtn = document.querySelector('.btn-refresh')
 
-btn.addEventListener('click', (e)=>{
+submitBtn.addEventListener('click', (e)=>{
   e.preventDefault();
   addScore();
   getScores().then((response)=>{
-    console.log(response);
+    displayScores(response.result);
+  });
+});
+
+refreshBtn.addEventListener('click', (e)=>{
+  e.preventDefault();
+  getScores().then((response)=>{
     displayScores(response.result);
   });
 });
