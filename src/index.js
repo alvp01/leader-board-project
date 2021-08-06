@@ -19,3 +19,9 @@ refreshBtn.addEventListener('click', (e) => {
     displayScores(response.result);
   });
 });
+
+window.addEventListener('load',()=>{
+  getScores().then((response) => {
+    displayScores(response.result);
+  });
+})
