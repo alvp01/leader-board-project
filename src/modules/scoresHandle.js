@@ -1,11 +1,11 @@
-const GAME_URL = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/Pl62njPYp6SgUIkCMSJt/scores/';
+const GAME_URL = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/FikknqvMClk4aTbIr6AL/scores/';
 
 export const getScores = async () => {
   const response = await fetch(GAME_URL);
-  
-  if(!response.ok) throw new Error(`An error has ocurred: ${response.status}`) 
-  
-  return response.json()
+
+  if (!response.ok) throw new Error(`An error has ocurred: ${response.status}`);
+
+  return response.json();
 };
 
 export const addScore = async () => {
@@ -14,7 +14,7 @@ export const addScore = async () => {
   const playerScore = {
     user: name,
     score: parseInt(score, 10),
-  }
+  };
 
   const request = await fetch(GAME_URL, {
     method: 'POST',
@@ -23,5 +23,5 @@ export const addScore = async () => {
     },
     body: JSON.stringify(playerScore),
   });
-  return request.json();  
+  return request.json();
 };
