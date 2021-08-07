@@ -38,7 +38,7 @@ $ npm run start
 
 ## Live link
 
-[Live demo](https://github.com/alvp01/leader-board-project)
+[Live demo](https://alvp01.github.io/leader-board-project/)
 
 ## Creating the game id
 
@@ -65,13 +65,15 @@ Received the game ID to use it in the following url: 'https://us-central1-js-cap
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/alvp01/To-do-list/issues)
+Feel free to check the [issues page](https://github.com/alvp01/leader-board-project/issues)
 
 ## Acknowledgments
 
 - [Microverse](https://www.microverse.org/)
 - [Leaderboard API](https://www.notion.so/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3)
 - [insomnia](https://insomnia.rest/)
+- [Fontawesome](https://fontawesome.com/)
+- [Google fonts](https://fonts.google.com/)
 
 ## 📝 License
 
