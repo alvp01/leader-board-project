@@ -111,7 +111,7 @@ li {
 }
 
 li:nth-child(odd) {
-  background-color: lightgray;
+  background-color: #bed7e9;
 }
 
 li:nth-child(even) {
@@ -140,8 +140,9 @@ input {
 }
 
 .btn:hover {
-  background-color: #6281ef;
+  background-color: #bed7e9;
   color: #292a2e;
+  border: 2px solid #29345b;
 }
 
 .btn i {
