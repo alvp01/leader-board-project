@@ -72,6 +72,8 @@ Feel free to check the [issues page](https://github.com/alvp01/To-do-list/issues
 - [Microverse](https://www.microverse.org/)
 - [Leaderboard API](https://www.notion.so/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3)
 - [insomnia](https://insomnia.rest/)
+- [Fontawesome](https://fontawesome.com/)
+- [Google fonts](https://fonts.google.com/)
 
 ## 📝 License
 
