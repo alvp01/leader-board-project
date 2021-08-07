@@ -9,6 +9,11 @@
 body {
   width: 100vw;
   height: 100vh;
+  overflow-x: hidden;
+}
+
+header {
+  margin-bottom: 3em;
 }
 
 header,
@@ -31,6 +36,7 @@ input[type="text"] {
 .form-container,
 .score-form,
 .scores-container,
+.btn,
 li {
   display: flex;
 }
@@ -66,6 +72,7 @@ li {
 
 .score-title-holder {
   align-self: flex-start;
+  align-items: center;
 }
 
 .score-title-holder h3 {
@@ -79,12 +86,19 @@ li {
 
 .list-scores {
   list-style: none;
+  height: 400px;
+  overflow-y: scroll;
+  border: 1.5px solid #2c302c;
+}
+
+.btn,
+li {
+  align-items: center;
 }
 
 li {
   height: 60px;
-  padding: 0 15px;
-  align-items: center;
+  padding: 0 15px;  
 }
 
 li:nth-child(odd) {
@@ -100,6 +114,26 @@ li:nth-child(even) {
 }
 
 .btn {
+  font-weight: bold;
+  border: none;
   border-radius: 5px;
-  width: 70px;
+  width: 90px;
+  height: 40px;
+  justify-content: center;
+  background-color: #29345b;
+  color: white;
+  transition: 1s;
+}
+
+.btn:hover {
+  background-color: #6281ef;
+  color: #292a2e;
+}
+
+.btn i {
+  margin-left: 10px;
+}
+
+.btn-refresh {
+  width: 100px;
 }
