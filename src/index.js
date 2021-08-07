@@ -23,12 +23,12 @@ refreshBtn.addEventListener('click', (e) => {
   });
 });
 
-refreshBtn.addEventListener('mouseenter', ()=>{
-  syncIcon.classList.add("fa-spin");
+refreshBtn.addEventListener('mouseenter', () => {
+  syncIcon.classList.add('fa-spin');
 });
 
-refreshBtn.addEventListener('mouseleave', ()=>{
-  if(syncIcon.classList.contains("fa-spin")) syncIcon.classList.remove("fa-spin");
+refreshBtn.addEventListener('mouseleave', () => {
+  if (syncIcon.classList.contains('fa-spin')) syncIcon.classList.remove('fa-spin');
 });
 
 window.addEventListener('load', () => {
