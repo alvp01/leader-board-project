@@ -38,7 +38,7 @@ $ npm run start
 
 ## Live link
 
-[Live demo](https://github.com/alvp01/leader-board-project)
+[Live demo](https://alvp01.github.io/leader-board-project/)
 
 ## Creating the game id
 
@@ -65,7 +65,7 @@ Received the game ID to use it in the following url: 'https://us-central1-js-cap
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/alvp01/To-do-list/issues)
+Feel free to check the [issues page](https://github.com/alvp01/leader-board-project/issues)
 
 ## Acknowledgments
 
