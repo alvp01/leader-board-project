@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Roboto+Condensed:wght@400;700&display=swap');
+
 *,
 ::before,
 ::after {
@@ -14,6 +16,11 @@ body {
 
 header {
   margin-bottom: 3em;
+}
+
+h1,
+h2 {
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 header,
@@ -75,7 +82,7 @@ li {
   align-items: center;
 }
 
-.score-title-holder h3 {
+.score-title-holder h2 {
   margin-right: 1em;
 }
 
@@ -98,7 +105,8 @@ li {
 
 li {
   height: 60px;
-  padding: 0 15px;  
+  padding: 0 15px;
+  font-family: 'Alegreya Sans', sans-serif;
 }
 
 li:nth-child(odd) {
